@@ -1,0 +1,34 @@
+[
+  {
+    "front": "If we assume that ϕX,Y is continuous, then what does it imply?",
+    "back": "It implies that g is the conditional expectation."
+  },
+  {
+    "front": "What is the definition of the conditional expectation for general random variables?",
+    "back": "Properties (CE1) and (CE2) provide the definition."
+  },
+  {
+    "front": "Taking g(x) = 1 for all x ∈RX, what identity holds?",
+    "back": "The well-known identity E(E(Y | X)) = E(Y ) holds."
+  },
+  {
+    "front": "What is the property of conditional expectation given by (CE2)?",
+    "back": "E(Y g(X) | X) = g(X)E(Y | X)"
+  },
+  {
+    "front": "What are measurable spaces?",
+    "back": "A pair (S,S) where S is a set and S ⊂P (S) contains S, is stable by complementation, countable unions, and intersections."
+  },
+  {
+    "front": "What is a σ-algebra?",
+    "back": "It is a measurable space that is a pair (S,S) where S is a set and S ⊂P (S) contains S, is stable by complementation, countable unions, and intersections."
+  },
+  {
+    "front": "How does one define the integral of a function f : S →Rd with respect to a measure µ?",
+    "back": "As a linear function that is defined as a function which is linear in f and such that, for all A ∈S, Z A µ(dx) = Z S 1A(x)µ(dx) = µ(A)."
+  },
+  {
+    "front": "What does it mean for a set A to be µ-negligible?",
+    "back": "It means there exists B ∈S such that A ⊂B and µ(B) = 0."
+  }
+]

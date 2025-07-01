@@ -1,0 +1,7 @@
+opencv-python
+pytesseract
+streamlit>=1.30.0
+PyMuPDF>=1.23.7        
+pillow>=10.0.0          
+
+

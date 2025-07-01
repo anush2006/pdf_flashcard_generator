@@ -1,0 +1,14 @@
+
+__pycache__/
+*.pyc
+*.log
+.venv/
+venv/
+uploads/
+train_ocr/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+.vscode/
+.idea/
