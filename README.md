@@ -16,8 +16,8 @@ Additionally these programs require Ollama to run the llm's locally,
 Make sure Ollama is running at: http://localhost:11434
 
 To run whole project execute : run.py
-
 Project structure:
+```
 .
 ├── src/
 │   ├── input_pdf.py
@@ -32,3 +32,4 @@ Project structure:
 ├── cleaned_flashcards.json
 ├── requirements.txt
 └── README.md
+```
