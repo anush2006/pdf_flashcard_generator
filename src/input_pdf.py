@@ -2,15 +2,13 @@ import fitz
 import shutil
 import os
 
-PDF_PATH = "D:/autogen/uploads/2409.02668v2.pdf"
+
 OUTPUT_DIR = "train_ocr"
 PAGES_PER_BATCH = 1
 DPI = 200
 
-def perform_extraction(pdf_path=PDF_PATH, output_dir=OUTPUT_DIR, batch_size=PAGES_PER_BATCH, dpi=DPI):
-    start_page = int(input("Enter start page: "))
-    end_page = int(input("Enter end page: "))
-
+def main(name_pdf,start_page,end_page,output_dir=OUTPUT_DIR, batch_size=PAGES_PER_BATCH, dpi=DPI):
+    pdf_path = os.path.join("src/uploads",name_pdf)
     try:
         doc = fitz.open(pdf_path)
     except Exception as e:
@@ -24,10 +22,12 @@ def perform_extraction(pdf_path=PDF_PATH, output_dir=OUTPUT_DIR, batch_size=PAGE
         shutil.rmtree(output_dir)
     os.makedirs(output_dir)
 
-    loop_end_page = end_page if end_page else page_count
+    loop_end_page = end_page
     batch_num = 1
 
-    for start in range(start_page, loop_end_page, batch_size):
+    print(f"Start page: {start_page}\nEnd page: {end_page}")
+
+    for start in range(start_page-1, loop_end_page, batch_size):
         end = min(start + batch_size, page_count)
         batch_dir = os.path.join(output_dir, f"batch_{batch_num:03d}")
         img_dir = os.path.join(batch_dir, "images")
@@ -50,4 +50,4 @@ def perform_extraction(pdf_path=PDF_PATH, output_dir=OUTPUT_DIR, batch_size=PAGE
     print("All pages processed successfully.")
 
 if __name__ == "__main__":
-    perform_extraction()
+   main()

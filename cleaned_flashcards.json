@@ -1,34 +1,226 @@
 [
   {
-    "front": "If we assume that ϕX,Y is continuous, then what does it imply?",
-    "back": "It implies that g is the conditional expectation."
+    "front": "What type of diagram was shown on Page 2?",
+    "back": "The diagram appears to be a visual representation of atmospheric conditions or weather patterns, showing relationships between clouds, rain, sunshine, and temperature."
   },
   {
-    "front": "What is the definition of the conditional expectation for general random variables?",
-    "back": "Properties (CE1) and (CE2) provide the definition."
+    "front": "What is the primary purpose of the diagram on Page 2?",
+    "back": "To help readers understand the relationship between atmospheric conditions and weather phenomena."
   },
   {
-    "front": "Taking g(x) = 1 for all x ∈RX, what identity holds?",
-    "back": "The well-known identity E(E(Y | X)) = E(Y ) holds."
+    "front": "How do clouds contribute to precipitation according to the diagram on Page 2?",
+    "back": "Clouds move water vapor, which condenses into clouds, followed by precipitation when conditions are right for it to fall as rain."
   },
   {
-    "front": "What is the property of conditional expectation given by (CE2)?",
-    "back": "E(Y g(X) | X) = g(X)E(Y | X)"
+    "front": "What is the impact of geographical features on climate and weather according to Page 2?",
+    "back": "Oceans and continents influence climate and weather."
   },
   {
-    "front": "What are measurable spaces?",
-    "back": "A pair (S,S) where S is a set and S ⊂P (S) contains S, is stable by complementation, countable unions, and intersections."
+    "front": "Why are visual aids like diagrams common in meteorology or climatology books?",
+    "back": "To visually communicate complex atmospheric processes to readers in a more accessible and understandable format."
   },
   {
-    "front": "What is a σ-algebra?",
-    "back": "It is a measurable space that is a pair (S,S) where S is a set and S ⊂P (S) contains S, is stable by complementation, countable unions, and intersections."
+    "front": "What is the relationship between air pressure, temperature, and elevation according to Page 2?",
+    "back": "Elevation affects air pressure and temperature."
   },
   {
-    "front": "How does one define the integral of a function f : S →Rd with respect to a measure µ?",
-    "back": "As a linear function that is defined as a function which is linear in f and such that, for all A ∈S, Z A µ(dx) = Z S 1A(x)µ(dx) = µ(A)."
+    "front": "What are the three phases of water mentioned on Page 3?",
+    "back": "Solid, liquid, and gas."
   },
   {
-    "front": "What does it mean for a set A to be µ-negligible?",
-    "back": "It means there exists B ∈S such that A ⊂B and µ(B) = 0."
+    "front": "How does the water cycle show the continuous movement of water?",
+    "back": "Through evaporation, condensation, precipitation, runoff, infiltration, percolation, groundwater flow, and transpiration."
+  },
+  {
+    "front": "What are some examples of solid ice and snow turning into gas according to Page 3?",
+    "back": "Sublimation."
+  },
+  {
+    "front": "How does the water cycle involve the Earth's atmosphere?",
+    "back": "The Earth's atmosphere is the main source of energy for the water cycle, and water vapor becomes solid when it is together with the Earth’s atmosphere, cloud droplets."
+  },
+  {
+    "front": "What is the primary impact of climate change on water resources according to Page 4?",
+    "back": "Climate change affects where, when, and how much water is available."
+  },
+  {
+    "front": "How can extreme weather events affect civilization?",
+    "back": "By impacting water supplies, flooding, or degraded water quality, which can impact the economy, energy production and use, human health, transportation, agriculture, national security, natural ecosystems, and recreation."
+  },
+  {
+    "front": "What are some potential positive consequences of climate change on water resources?",
+    "back": "Reduction of drought conditions and increased water resources."
+  },
+  {
+    "front": "How can the book 'Water and Climate Change' be applied in real-world contexts?",
+    "back": "By discussing the impact of extreme weather on water availability, providing opportunities for transportation and agriculture, and highlighting broader societal implications."
+  },
+  {
+    "front": "What are some potential challenges associated with climate change according to Page 4?",
+    "back": "A lack of adequate water supplies, flooding, or degraded water quality, which can impact the economy, energy production and use, human health, transportation, agriculture, national security, natural ecosystems, and recreation."
+  },
+  {
+    "front": "What is the relationship between increased precipitation and increased water resources according to Page 4?",
+    "back": "Increased precipitation leads to increased water resources."
+  },
+  {
+    "front": "How can climate change impact human health, agriculture, security, and energy production according to Page 4?",
+    "back": "Through potential impacts on water supplies, flooding, or degraded water quality, which can affect these areas."
+  },
+  {
+    "front": "What is the main focus of the book 'Water and Climate Change'?",
+    "back": "The impact of extreme weather events on water availability and broader societal implications."
+  },
+  {
+    "front": "How can climate change affect national security, natural ecosystems, and recreation according to Page 4?",
+    "back": "By impacting water supplies, flooding, or degraded water quality, which can affect these areas."
+  },
+  {
+    "front": "What are some potential opportunities for transportation and agriculture due to climate change according to Page 4?",
+    "back": "Increased precipitation leading to increased water resources and reduced drought conditions."
+  },
+  {
+    "front": "How does the diagram on Page 2 relate to the concept of 'weather phenomena'?",
+    "back": "The diagram shows various elements such as clouds, rain, sunshine, and temperature, representing different weather-related conditions like 'Sunny', 'Cloudy', 'Rainy', etc."
+  },
+  {
+    "front": "What is the main difference between evaporation and precipitation according to Page 3?",
+    "back": "Evaporation involves liquid water turning into gas, while precipitation involves water vapor becoming solid (rain, snow)."
+  },
+  {
+    "front": "How does the text on Page 3 describe the movement of water within the Earth and atmosphere?",
+    "back": "The text describes the continuous movement of water through evaporation, condensation, precipitation, runoff, infiltration, percolation, groundwater flow, and transpiration."
+  },
+  {
+    "front": "What is the significance of the Earth's atmosphere in the context of the water cycle?",
+    "back": "The Earth's atmosphere is the main source of energy for the water cycle, providing energy for evaporation and condensation."
+  },
+  {
+    "front": "How do geographical features like oceans and continents impact climate and weather according to Page 2?",
+    "back": "Geographical features influence climate and weather by affecting air pressure and temperature."
+  },
+  {
+    "front": "What are some potential long-term impacts of climate change on water resources according to Page 4?",
+    "back": "A lack of adequate water supplies, flooding, or degraded water quality, which can impact the economy, energy production and use, human health, transportation, agriculture, national security, natural ecosystems, and recreation."
+  },
+  {
+    "front": "How does climate change affect where, when, and how much water is available according to Page 4?",
+    "back": "Climate change affects the availability of water by altering precipitation patterns and frequency."
+  },
+  {
+    "front": "What are some potential societal implications of climate change on water resources according to Page 4?",
+    "back": "Potential impacts include a lack of adequate water supplies, flooding, or degraded water quality, which can affect the economy, energy production and use, human health, transportation, agriculture, national security, natural ecosystems, and recreation."
+  },
+  {
+    "front": "How does climate change impact human health according to Page 4?",
+    "back": "Climate change can impact human health by affecting water supplies, flooding, or degraded water quality, which can affect the economy, energy production and use, transportation, agriculture, national security, natural ecosystems, and recreation."
+  },
+  {
+    "front": "What is the relationship between climate change and agriculture according to Page 4?",
+    "back": "Climate change can impact agriculture by affecting water supplies, flooding, or degraded water quality, which can affect crop yields, food security, and human health."
+  },
+  {
+    "front": "What is water's role in climate variability and change?",
+    "back": "Water influences the intensity of climate variability and change. It is the key part of extreme events such as drought and floods."
+  },
+  {
+    "front": "Why is water abundance and timely delivery critical for meeting societal needs?",
+    "back": "Water abundance and timely delivery are critical for meeting the needs of society and ecosystems."
+  },
+  {
+    "front": "What are some human uses of water?",
+    "back": "Humans use water for drinking, industrial applications, irrigating agriculture, hydropower, waste disposal, and recreation."
+  },
+  {
+    "front": "Why is it important to protect water sources?",
+    "back": "It is important that water sources are protected both for human uses and ecosystem health."
+  },
+  {
+    "front": "What stresses affect water supplies?",
+    "back": "In many areas, water supplies are being depleted because of population growth, pollution, and development."
+  },
+  {
+    "front": "How do climate variations and changes affect the hydrologic cycle?",
+    "back": "These stresses have been made worse by climate variations and changes that affect the hydrologic cycle."
+  },
+  {
+    "front": "What are some impacts of human activities on the water cycle?",
+    "back": "USE OF TOXIC CHEMICALS IN AGRICULTURE AND MANUFACTURING AND RUNOFF FROM CHLORINATED PESTICIDES, TOXIC WASTE PRODUCTION FROM HUMAN ACTIVITIES, DEFORESTATION FOR FOOD, PAPER, AND LUMBER, RUNOFF FROM CATTLE AND CHICKEN FARMS, OIL SPILLAGE, AIR POLLUTION FROM CLEARING FORESTS AND TRANSPORTATION OF WOOD, TOXIC MANURE FROM AGRICULTURAL AREAS, LAND CONVERSION FOR GUARDIA IN THE WATER CYCLE."
+  },
+  {
+    "front": "How do agricultural activities affect the water cycle?",
+    "back": "The left image shows an agricultural field with crops growing, surrounded by bare land that appears to have been recently cleared or cultivated. This image could be depicting soil erosion caused by human activities in agriculture."
+  },
+  {
+    "front": "What are some consequences of deforestation on the water cycle?",
+    "back": "The right image features a field where there has been a significant amount of vegetation loss, possibly due to deforestation or overgrazing. It is noted that this can lead to the return of a large number of water-borne pollutants from the atmosphere to the surface."
+  },
+  {
+    "front": "Is it possible to balance human needs and ecosystem health?",
+    "back": "It is important that water sources are protected both for human uses and ecosystem health."
+  },
+  {
+    "front": "What are some pros and cons of using toxic chemicals in agriculture?",
+    "back": ""
+  },
+  {
+    "front": "Can we propose a more sustainable approach to managing water resources?",
+    "back": ""
+  },
+  {
+    "front": "What would happen if we hypothesized that climate change affects the hydrologic cycle?",
+    "back": ""
+  },
+  {
+    "front": "How does population growth impact water supplies?",
+    "back": "In many areas, water supplies are being depleted because of population growth, pollution, and development."
+  },
+  {
+    "front": "What is the importance of protecting ecosystem health in relation to water resources?",
+    "back": "It is important that water sources are protected both for human uses and ecosystem health."
+  },
+  {
+    "front": "How do industrial applications impact water resources?",
+    "back": "Humans use water for drinking, industrial applications, irrigating agriculture, hydropower, waste disposal, and recreation."
+  },
+  {
+    "front": "What are some consequences of pollution on the water cycle?",
+    "back": "USE OF TOXIC CHEMICALS IN AGRICULTURE AND MANUFACTURING AND RUNOFF FROM CHLORINATED PESTICIDES, TOXIC WASTE PRODUCTION FROM HUMAN ACTIVITIES, DEFORESTATION FOR FOOD, PAPER, AND LUMBER, RUNOFF FROM CATTLE AND CHICKEN FARMS, OIL SPILLAGE, AIR POLLUTION FROM CLEARING FORESTS AND TRANSPORTATION OF WOOD, TOXIC MANURE FROM AGRICULTURAL AREAS, LAND CONVERSION FOR GUARDIA IN THE WATER CYCLE."
+  },
+  {
+    "front": "What would be the effects of deforestation on soil quality?",
+    "back": "The left image shows an agricultural field with crops growing, surrounded by bare land that appears to have been recently cleared or cultivated. This image could be depicting soil erosion caused by human activities in agriculture."
+  },
+  {
+    "front": "What are some consequences of overgrazing on the water cycle?",
+    "back": "The right image features a field where there has been a significant amount of vegetation loss, possibly due to deforestation or overgrazing. It is noted that this can lead to the return of a large number of water-borne pollutants from the atmosphere to the surface."
+  },
+  {
+    "front": "Is it possible to justify the use of toxic chemicals in agriculture?",
+    "back": ""
+  },
+  {
+    "front": "What are some pros and cons of using renewable energy sources for water treatment?",
+    "back": ""
+  },
+  {
+    "front": "Can we propose a more sustainable approach to managing agricultural practices?",
+    "back": ""
+  },
+  {
+    "front": "What would happen if we hypothesized that urbanization affects water supplies?",
+    "back": ""
+  },
+  {
+    "front": "How do industrial applications impact soil quality?",
+    "back": "The left image shows an agricultural field with crops growing, surrounded by bare land that appears to have been recently cleared or cultivated. This image could be depicting soil erosion caused by human activities in agriculture."
+  },
+  {
+    "front": "What are some consequences of pollution on air quality?",
+    "back": "The right image features a field where there has been a significant amount of vegetation loss, possibly due to deforestation or overgrazing. It is noted that this can lead to the return of a large number of water-borne pollutants from the atmosphere to the surface."
+  },
+  {
+    "front": "Is it possible to justify the use of renewable energy sources for water treatment?",
+    "back": ""
   }
 ]

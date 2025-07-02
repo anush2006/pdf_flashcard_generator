@@ -41,24 +41,22 @@ def main():
         if combined_text:
             prompt = f"""
 
-    You are an expert educator generating high-quality flashcards for students based on academic content.
+You are an expert educator. Generate flashcards based on the input academic content.
 
-    DEEPLY ANALYZE THE TEXT AND DESCRIPTION GIVEN TO DO THE FOLLOWING
-    -GENERATE FLASHCARDS WITH: 
+Classify each question into one of Bloom’s Taxonomy levels: Remember, Understand, Apply, Analyze, Evaluate, Create.
 
-    - Each item should be of the form: [{{ "front": "<question>", "back": "<answer summarized in normal english>" }}]
-    - Do not say refer to this/that give the full answer
-    - make sure the questions satisfy the following: Remember , analyze , evaluate and create
-    **Input:**
+Generate questions and answers in the format:
+{ "front": "question", "back": "answer", "level": "Bloom_Level" }
 
-    {combined_text}
-
-
-    **Output (JSON only):**
-
+Ensure:
+- No vague answers.
+- Include higher-order thinking (Analyze/Create) where content allows.
+- Avoid repetition.
+- Each flashcard is factually grounded in the input.
+{combined_text}
 
 
-    """
+**Output (JSON only):** """
 
             payload = {
                 "model": MODEL_NAME,

@@ -1,7 +1,7 @@
 import json
 
 INPUT_FILE = "flashcards.json"
-OUTPUT_FILE = "D:/autogen/cleaned_flashcards.json"
+OUTPUT_FILE = "cleaned_flashcards.json"
 
 def parse_json_block(text):
     try:

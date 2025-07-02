@@ -4,7 +4,6 @@ __pycache__/
 *.log
 .venv/
 venv/
-uploads/
 train_ocr/
 *.pdf
 *.png
@@ -12,3 +11,6 @@ train_ocr/
 *.jpeg
 .vscode/
 .idea/
+uploads/
+flashcards.json
+cleaned_flashcards.json
