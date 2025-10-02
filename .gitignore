@@ -3,7 +3,6 @@ __pycache__/
 *.pyc
 *.log
 .venv/
-venv/
 train_ocr/
 *.pdf
 *.png
@@ -14,3 +13,5 @@ train_ocr/
 uploads/
 flashcards.json
 cleaned_flashcards.json
+.gitignore
+pdf_parsing_RAG.py

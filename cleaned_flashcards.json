@@ -1,226 +1,67 @@
 [
-  {
-    "front": "What type of diagram was shown on Page 2?",
-    "back": "The diagram appears to be a visual representation of atmospheric conditions or weather patterns, showing relationships between clouds, rain, sunshine, and temperature."
-  },
-  {
-    "front": "What is the primary purpose of the diagram on Page 2?",
-    "back": "To help readers understand the relationship between atmospheric conditions and weather phenomena."
-  },
-  {
-    "front": "How do clouds contribute to precipitation according to the diagram on Page 2?",
-    "back": "Clouds move water vapor, which condenses into clouds, followed by precipitation when conditions are right for it to fall as rain."
-  },
-  {
-    "front": "What is the impact of geographical features on climate and weather according to Page 2?",
-    "back": "Oceans and continents influence climate and weather."
-  },
-  {
-    "front": "Why are visual aids like diagrams common in meteorology or climatology books?",
-    "back": "To visually communicate complex atmospheric processes to readers in a more accessible and understandable format."
-  },
-  {
-    "front": "What is the relationship between air pressure, temperature, and elevation according to Page 2?",
-    "back": "Elevation affects air pressure and temperature."
-  },
-  {
-    "front": "What are the three phases of water mentioned on Page 3?",
-    "back": "Solid, liquid, and gas."
-  },
-  {
-    "front": "How does the water cycle show the continuous movement of water?",
-    "back": "Through evaporation, condensation, precipitation, runoff, infiltration, percolation, groundwater flow, and transpiration."
-  },
-  {
-    "front": "What are some examples of solid ice and snow turning into gas according to Page 3?",
-    "back": "Sublimation."
-  },
-  {
-    "front": "How does the water cycle involve the Earth's atmosphere?",
-    "back": "The Earth's atmosphere is the main source of energy for the water cycle, and water vapor becomes solid when it is together with the Earth’s atmosphere, cloud droplets."
-  },
-  {
-    "front": "What is the primary impact of climate change on water resources according to Page 4?",
-    "back": "Climate change affects where, when, and how much water is available."
-  },
-  {
-    "front": "How can extreme weather events affect civilization?",
-    "back": "By impacting water supplies, flooding, or degraded water quality, which can impact the economy, energy production and use, human health, transportation, agriculture, national security, natural ecosystems, and recreation."
-  },
-  {
-    "front": "What are some potential positive consequences of climate change on water resources?",
-    "back": "Reduction of drought conditions and increased water resources."
-  },
-  {
-    "front": "How can the book 'Water and Climate Change' be applied in real-world contexts?",
-    "back": "By discussing the impact of extreme weather on water availability, providing opportunities for transportation and agriculture, and highlighting broader societal implications."
-  },
-  {
-    "front": "What are some potential challenges associated with climate change according to Page 4?",
-    "back": "A lack of adequate water supplies, flooding, or degraded water quality, which can impact the economy, energy production and use, human health, transportation, agriculture, national security, natural ecosystems, and recreation."
-  },
-  {
-    "front": "What is the relationship between increased precipitation and increased water resources according to Page 4?",
-    "back": "Increased precipitation leads to increased water resources."
-  },
-  {
-    "front": "How can climate change impact human health, agriculture, security, and energy production according to Page 4?",
-    "back": "Through potential impacts on water supplies, flooding, or degraded water quality, which can affect these areas."
-  },
-  {
-    "front": "What is the main focus of the book 'Water and Climate Change'?",
-    "back": "The impact of extreme weather events on water availability and broader societal implications."
-  },
-  {
-    "front": "How can climate change affect national security, natural ecosystems, and recreation according to Page 4?",
-    "back": "By impacting water supplies, flooding, or degraded water quality, which can affect these areas."
-  },
-  {
-    "front": "What are some potential opportunities for transportation and agriculture due to climate change according to Page 4?",
-    "back": "Increased precipitation leading to increased water resources and reduced drought conditions."
-  },
-  {
-    "front": "How does the diagram on Page 2 relate to the concept of 'weather phenomena'?",
-    "back": "The diagram shows various elements such as clouds, rain, sunshine, and temperature, representing different weather-related conditions like 'Sunny', 'Cloudy', 'Rainy', etc."
-  },
-  {
-    "front": "What is the main difference between evaporation and precipitation according to Page 3?",
-    "back": "Evaporation involves liquid water turning into gas, while precipitation involves water vapor becoming solid (rain, snow)."
-  },
-  {
-    "front": "How does the text on Page 3 describe the movement of water within the Earth and atmosphere?",
-    "back": "The text describes the continuous movement of water through evaporation, condensation, precipitation, runoff, infiltration, percolation, groundwater flow, and transpiration."
-  },
-  {
-    "front": "What is the significance of the Earth's atmosphere in the context of the water cycle?",
-    "back": "The Earth's atmosphere is the main source of energy for the water cycle, providing energy for evaporation and condensation."
-  },
-  {
-    "front": "How do geographical features like oceans and continents impact climate and weather according to Page 2?",
-    "back": "Geographical features influence climate and weather by affecting air pressure and temperature."
-  },
-  {
-    "front": "What are some potential long-term impacts of climate change on water resources according to Page 4?",
-    "back": "A lack of adequate water supplies, flooding, or degraded water quality, which can impact the economy, energy production and use, human health, transportation, agriculture, national security, natural ecosystems, and recreation."
-  },
-  {
-    "front": "How does climate change affect where, when, and how much water is available according to Page 4?",
-    "back": "Climate change affects the availability of water by altering precipitation patterns and frequency."
-  },
-  {
-    "front": "What are some potential societal implications of climate change on water resources according to Page 4?",
-    "back": "Potential impacts include a lack of adequate water supplies, flooding, or degraded water quality, which can affect the economy, energy production and use, human health, transportation, agriculture, national security, natural ecosystems, and recreation."
-  },
-  {
-    "front": "How does climate change impact human health according to Page 4?",
-    "back": "Climate change can impact human health by affecting water supplies, flooding, or degraded water quality, which can affect the economy, energy production and use, transportation, agriculture, national security, natural ecosystems, and recreation."
-  },
-  {
-    "front": "What is the relationship between climate change and agriculture according to Page 4?",
-    "back": "Climate change can impact agriculture by affecting water supplies, flooding, or degraded water quality, which can affect crop yields, food security, and human health."
-  },
-  {
-    "front": "What is water's role in climate variability and change?",
-    "back": "Water influences the intensity of climate variability and change. It is the key part of extreme events such as drought and floods."
-  },
-  {
-    "front": "Why is water abundance and timely delivery critical for meeting societal needs?",
-    "back": "Water abundance and timely delivery are critical for meeting the needs of society and ecosystems."
-  },
-  {
-    "front": "What are some human uses of water?",
-    "back": "Humans use water for drinking, industrial applications, irrigating agriculture, hydropower, waste disposal, and recreation."
-  },
-  {
-    "front": "Why is it important to protect water sources?",
-    "back": "It is important that water sources are protected both for human uses and ecosystem health."
-  },
-  {
-    "front": "What stresses affect water supplies?",
-    "back": "In many areas, water supplies are being depleted because of population growth, pollution, and development."
-  },
-  {
-    "front": "How do climate variations and changes affect the hydrologic cycle?",
-    "back": "These stresses have been made worse by climate variations and changes that affect the hydrologic cycle."
-  },
-  {
-    "front": "What are some impacts of human activities on the water cycle?",
-    "back": "USE OF TOXIC CHEMICALS IN AGRICULTURE AND MANUFACTURING AND RUNOFF FROM CHLORINATED PESTICIDES, TOXIC WASTE PRODUCTION FROM HUMAN ACTIVITIES, DEFORESTATION FOR FOOD, PAPER, AND LUMBER, RUNOFF FROM CATTLE AND CHICKEN FARMS, OIL SPILLAGE, AIR POLLUTION FROM CLEARING FORESTS AND TRANSPORTATION OF WOOD, TOXIC MANURE FROM AGRICULTURAL AREAS, LAND CONVERSION FOR GUARDIA IN THE WATER CYCLE."
-  },
-  {
-    "front": "How do agricultural activities affect the water cycle?",
-    "back": "The left image shows an agricultural field with crops growing, surrounded by bare land that appears to have been recently cleared or cultivated. This image could be depicting soil erosion caused by human activities in agriculture."
-  },
-  {
-    "front": "What are some consequences of deforestation on the water cycle?",
-    "back": "The right image features a field where there has been a significant amount of vegetation loss, possibly due to deforestation or overgrazing. It is noted that this can lead to the return of a large number of water-borne pollutants from the atmosphere to the surface."
-  },
-  {
-    "front": "Is it possible to balance human needs and ecosystem health?",
-    "back": "It is important that water sources are protected both for human uses and ecosystem health."
-  },
-  {
-    "front": "What are some pros and cons of using toxic chemicals in agriculture?",
-    "back": ""
-  },
-  {
-    "front": "Can we propose a more sustainable approach to managing water resources?",
-    "back": ""
-  },
-  {
-    "front": "What would happen if we hypothesized that climate change affects the hydrologic cycle?",
-    "back": ""
-  },
-  {
-    "front": "How does population growth impact water supplies?",
-    "back": "In many areas, water supplies are being depleted because of population growth, pollution, and development."
-  },
-  {
-    "front": "What is the importance of protecting ecosystem health in relation to water resources?",
-    "back": "It is important that water sources are protected both for human uses and ecosystem health."
-  },
-  {
-    "front": "How do industrial applications impact water resources?",
-    "back": "Humans use water for drinking, industrial applications, irrigating agriculture, hydropower, waste disposal, and recreation."
-  },
-  {
-    "front": "What are some consequences of pollution on the water cycle?",
-    "back": "USE OF TOXIC CHEMICALS IN AGRICULTURE AND MANUFACTURING AND RUNOFF FROM CHLORINATED PESTICIDES, TOXIC WASTE PRODUCTION FROM HUMAN ACTIVITIES, DEFORESTATION FOR FOOD, PAPER, AND LUMBER, RUNOFF FROM CATTLE AND CHICKEN FARMS, OIL SPILLAGE, AIR POLLUTION FROM CLEARING FORESTS AND TRANSPORTATION OF WOOD, TOXIC MANURE FROM AGRICULTURAL AREAS, LAND CONVERSION FOR GUARDIA IN THE WATER CYCLE."
-  },
-  {
-    "front": "What would be the effects of deforestation on soil quality?",
-    "back": "The left image shows an agricultural field with crops growing, surrounded by bare land that appears to have been recently cleared or cultivated. This image could be depicting soil erosion caused by human activities in agriculture."
-  },
-  {
-    "front": "What are some consequences of overgrazing on the water cycle?",
-    "back": "The right image features a field where there has been a significant amount of vegetation loss, possibly due to deforestation or overgrazing. It is noted that this can lead to the return of a large number of water-borne pollutants from the atmosphere to the surface."
-  },
-  {
-    "front": "Is it possible to justify the use of toxic chemicals in agriculture?",
-    "back": ""
-  },
-  {
-    "front": "What are some pros and cons of using renewable energy sources for water treatment?",
-    "back": ""
-  },
-  {
-    "front": "Can we propose a more sustainable approach to managing agricultural practices?",
-    "back": ""
-  },
-  {
-    "front": "What would happen if we hypothesized that urbanization affects water supplies?",
-    "back": ""
-  },
-  {
-    "front": "How do industrial applications impact soil quality?",
-    "back": "The left image shows an agricultural field with crops growing, surrounded by bare land that appears to have been recently cleared or cultivated. This image could be depicting soil erosion caused by human activities in agriculture."
-  },
-  {
-    "front": "What are some consequences of pollution on air quality?",
-    "back": "The right image features a field where there has been a significant amount of vegetation loss, possibly due to deforestation or overgrazing. It is noted that this can lead to the return of a large number of water-borne pollutants from the atmosphere to the surface."
-  },
-  {
-    "front": "Is it possible to justify the use of renewable energy sources for water treatment?",
-    "back": ""
-  }
+  { "front": "What are the four fundamental characteristics of a data communications system?", "back": "Delivery, Accuracy, Timeliness, and Jitter." },
+  { "front": "In data communications, what does 'delivery' mean?", "back": "Data must be delivered to the correct destination — the intended device or user only." },
+  { "front": "Define 'jitter' in data communications.", "back": "Variation in packet arrival time, which can affect quality in real-time applications like video." },
+  { "front": "Name the five components of a data communications system.", "back": "Message, Sender, Receiver, Transmission medium, and Protocol." },
+  { "front": "Differentiate between simplex, half-duplex, and full-duplex communication.", "back": "Simplex: one-way only. Half-duplex: both directions but not simultaneously. Full-duplex: both directions simultaneously." },
+  { "front": "What are the three main network criteria?", "back": "Performance, Reliability, and Security." },
+  { "front": "What is the difference between point-to-point and multipoint connections?", "back": "Point-to-point has a dedicated link between two devices. Multipoint shares a single link among multiple devices." },
+  { "front": "Give a one-line difference between LAN, MAN, and WAN.", "back": "They differ by geographic scope: LAN (small area), MAN (city/metro), WAN (large/global)." },
+  { "front": "What is a 'protocol' in data communications?", "back": "A set of rules that govern data communications between devices." },
+  { "front": "List two examples of transmission media mentioned.", "back": "Twisted-pair wire and fiber-optic cable." },
+
+  { "front": "What is the definition of a network topology?", "back": "The physical or logical arrangement of network devices and connections." },
+  { "front": "Name two common physical topologies.", "back": "Bus and Star." },
+  { "front": "Explain how a bus topology operates.", "back": "All devices share a single communication line; signals are broadcast to all devices." },
+  { "front": "What is one advantage of a star topology over a bus topology?", "back": "Failure of one link does not affect others." },
+  { "front": "What is one disadvantage of star topology?", "back": "If the central hub fails, all devices are disconnected." },
+  { "front": "Compare bus and ring topology in terms of fault tolerance.", "back": "Ring fails completely if one link breaks; bus can still function if fault is isolated." },
+  { "front": "Which topology is easiest to install and why?", "back": "Bus, because it requires less cable and is simple to set up." },
+  { "front": "Give an example where ring topology might be preferred.", "back": "When predictable performance and orderly access to the medium are required." },
+  { "front": "How does a mesh topology provide reliability?", "back": "It offers multiple redundant paths between devices." },
+  { "front": "If you had to design a topology for a mission-critical system, which would you choose and why?", "back": "Mesh topology — provides redundancy and fault tolerance." },
+
+  { "front": "What does OSI stand for?", "back": "Open Systems Interconnection." },
+  { "front": "How many layers are in the OSI model?", "back": "Seven." },
+  { "front": "List the OSI layers from top to bottom.", "back": "Application, Presentation, Session, Transport, Network, Data Link, Physical." },
+  { "front": "Which OSI layer is responsible for routing?", "back": "Network layer." },
+  { "front": "Which OSI layer handles error detection and correction?", "back": "Data Link layer." },
+  { "front": "What is the role of the Transport layer?", "back": "Provides reliable data transfer, flow control, and error handling." },
+  { "front": "Differentiate between Physical and Data Link layers.", "back": "Physical transmits raw bits; Data Link organizes bits into frames and ensures error-free delivery." },
+  { "front": "Which OSI layer establishes, manages, and terminates sessions?", "back": "Session layer." },
+  { "front": "How would you explain the OSI model to a non-technical person?", "back": "A step-by-step system where each layer has a specific job to ensure communication works." },
+  { "front": "Evaluate: Is the OSI model practical for real-world networking?", "back": "Yes for understanding, but most real-world protocols use a hybrid like TCP/IP." },
+
+  { "front": "What does TCP/IP stand for?", "back": "Transmission Control Protocol / Internet Protocol." },
+  { "front": "Name the four layers of the TCP/IP model.", "back": "Application, Transport, Internet, Network Access." },
+  { "front": "Which TCP/IP layer corresponds to the OSI Network layer?", "back": "Internet layer." },
+  { "front": "What is the main function of TCP?", "back": "Provides reliable, ordered, error-checked delivery of data." },
+  { "front": "What is the main function of IP?", "back": "Provides logical addressing and routing." },
+  { "front": "How does UDP differ from TCP?", "back": "UDP is connectionless, faster, but less reliable than TCP." },
+  { "front": "Give an example where UDP is preferred.", "back": "Live streaming or gaming where speed is more important than reliability." },
+  { "front": "What is the loopback IP address?", "back": "127.0.0.1." },
+  { "front": "Why is TCP/IP considered more practical than OSI?", "back": "It is based on real protocols in use and is widely implemented." },
+  { "front": "Propose a simple analogy for TCP/IP communication.", "back": "Like sending letters through a postal system where addresses and delivery rules are standardized." },
+
+  { "front": "Define bandwidth.", "back": "The maximum rate at which data can be transmitted over a network path." },
+  { "front": "Define throughput.", "back": "The actual rate of successful data transfer." },
+  { "front": "What is latency?", "back": "The delay between sending and receiving data." },
+  { "front": "Explain jitter in terms of latency.", "back": "The variation in latency over time." },
+  { "front": "Why is high bandwidth not always equal to high throughput?", "back": "Throughput can be reduced by errors, congestion, and protocol overhead." },
+  { "front": "How can latency affect user experience?", "back": "High latency can cause noticeable delays, making interactions sluggish." },
+  { "front": "Compare propagation delay and transmission delay.", "back": "Propagation delay is signal travel time; transmission delay is time to push all bits onto the link." },
+  { "front": "What factor primarily affects propagation delay?", "back": "The medium's physical properties and distance." },
+  { "front": "How would you improve throughput in a congested network?", "back": "Increase bandwidth, optimize protocols, or reduce network load." },
+  { "front": "Evaluate: Is jitter more critical in video conferencing or email?", "back": "Video conferencing, because timing consistency affects quality." },
+
+  { "front": "What is multiplexing?", "back": "Combining multiple signals for transmission over a single medium." },
+  { "front": "Name two common multiplexing techniques.", "back": "Frequency Division Multiplexing (FDM) and Time Division Multiplexing (TDM)." },
+  { "front": "How does FDM work?", "back": "Assigns different frequency bands to different signals." },
+  { "front": "How does TDM work?", "back": "Assigns different time slots to different signals." },
+  { "front": "What is statistical TDM?", "back": "Allocates time slots dynamically based on demand." },
+  { "front": "Compare FDM and TDM in terms of efficiency.", "back": "TDM can be more efficient when users have bursty traffic." },
+  { "front": "Where is Wavelength Division Multiplexing used?", "back": "In fiber-optic communications." },
+  { "front": "Why use multiplexing?", "back": "To maximize the use of a communication channel's capacity." },
+  { "front": "Apply: Which multiplexing technique is best for continuous analog signals?", "back": "FDM." },
+  { "front": "Create: Design a simple TDM frame for 4 devices each sending 1 byte.", "back": "Frame would have 4 time slots, each 1 byte long, assigned in order to devices 1–4." }
 ]

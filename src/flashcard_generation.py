@@ -45,13 +45,14 @@ You are an expert educator. Generate flashcards based on the input academic cont
 
 Classify each question into one of Bloom’s Taxonomy levels: Remember, Understand, Apply, Analyze, Evaluate, Create.
 
-Generate questions and answers in the format:
-{ "front": "question", "back": "answer", "level": "Bloom_Level" }
+Generate 10 questions and answers in the format:
+{{ "front": "question", "back": "answer"}}
 
 Ensure:
 - No vague answers.
 - Include higher-order thinking (Analyze/Create) where content allows.
 - Avoid repetition.
+- Dont refer to images inside the text.
 - Each flashcard is factually grounded in the input.
 {combined_text}
 

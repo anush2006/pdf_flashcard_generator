@@ -1,3 +1,11 @@
+import sys
+import site
+
+print(">>> Running with Python:", sys.executable)
+print(">>> sys.path:", sys.path)
+print(">>> site-packages dir:", site.getsitepackages())
+
+
 import fitz
 import shutil
 import os

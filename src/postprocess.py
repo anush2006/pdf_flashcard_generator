@@ -25,7 +25,7 @@ def clean_flashcards(input_file):
         if "[" in raw and "]" in raw:
             parsed = parse_json_block(raw)
             for card in parsed:
-                if "front" in card and "back" in card:
+                if "front" in card and "back" in card :
                     cleaned.append({
                         "front": card["front"].strip(),
                         "back": card["back"].strip()
