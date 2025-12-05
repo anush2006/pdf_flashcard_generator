@@ -1,6 +1,7 @@
 import os
 import requests
 import base64
+import FAISS_store
 
 def image_to_base64(path):
     with open(path, "rb") as img_file:
@@ -10,10 +11,7 @@ def image_to_base64(path):
         return img_str
 
 def query_llava(image_list_base64, context):
-    prompt_text  =""" This image is a page from a technical book. Please examine the visual layout and focus on any diagram, chart, or structured information it contains.
-
-*Avoid summarizing full paragraphs. Focus on what the **diagram or visual flow** is trying to teach or explain.
-
+    prompt_text  =""" This image is a page from a technical book. Examine the visual layout and focus on any diagram, chart, or structured information it contains.In case you find any diagrams give an indepth explanation of what you see in the diagram and any logical relationships that you can identify. Make it as detailed as possible.
 
 """
 

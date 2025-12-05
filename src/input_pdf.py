@@ -1,18 +1,10 @@
-import sys
-import site
-
-print(">>> Running with Python:", sys.executable)
-print(">>> sys.path:", sys.path)
-print(">>> site-packages dir:", site.getsitepackages())
-
-
 import fitz
 import shutil
 import os
 
 
 OUTPUT_DIR = "train_ocr"
-PAGES_PER_BATCH = 1
+PAGES_PER_BATCH = 5
 DPI = 200
 
 def main(name_pdf,start_page,end_page,output_dir=OUTPUT_DIR, batch_size=PAGES_PER_BATCH, dpi=DPI):
@@ -30,7 +22,7 @@ def main(name_pdf,start_page,end_page,output_dir=OUTPUT_DIR, batch_size=PAGES_PE
         shutil.rmtree(output_dir)
     os.makedirs(output_dir)
 
-    loop_end_page = end_page
+    loop_end_page = page_count
     batch_num = 1
 
     print(f"Start page: {start_page}\nEnd page: {end_page}")

@@ -1,67 +1,118 @@
 [
-  { "front": "What are the four fundamental characteristics of a data communications system?", "back": "Delivery, Accuracy, Timeliness, and Jitter." },
-  { "front": "In data communications, what does 'delivery' mean?", "back": "Data must be delivered to the correct destination — the intended device or user only." },
-  { "front": "Define 'jitter' in data communications.", "back": "Variation in packet arrival time, which can affect quality in real-time applications like video." },
-  { "front": "Name the five components of a data communications system.", "back": "Message, Sender, Receiver, Transmission medium, and Protocol." },
-  { "front": "Differentiate between simplex, half-duplex, and full-duplex communication.", "back": "Simplex: one-way only. Half-duplex: both directions but not simultaneously. Full-duplex: both directions simultaneously." },
-  { "front": "What are the three main network criteria?", "back": "Performance, Reliability, and Security." },
-  { "front": "What is the difference between point-to-point and multipoint connections?", "back": "Point-to-point has a dedicated link between two devices. Multipoint shares a single link among multiple devices." },
-  { "front": "Give a one-line difference between LAN, MAN, and WAN.", "back": "They differ by geographic scope: LAN (small area), MAN (city/metro), WAN (large/global)." },
-  { "front": "What is a 'protocol' in data communications?", "back": "A set of rules that govern data communications between devices." },
-  { "front": "List two examples of transmission media mentioned.", "back": "Twisted-pair wire and fiber-optic cable." },
-
-  { "front": "What is the definition of a network topology?", "back": "The physical or logical arrangement of network devices and connections." },
-  { "front": "Name two common physical topologies.", "back": "Bus and Star." },
-  { "front": "Explain how a bus topology operates.", "back": "All devices share a single communication line; signals are broadcast to all devices." },
-  { "front": "What is one advantage of a star topology over a bus topology?", "back": "Failure of one link does not affect others." },
-  { "front": "What is one disadvantage of star topology?", "back": "If the central hub fails, all devices are disconnected." },
-  { "front": "Compare bus and ring topology in terms of fault tolerance.", "back": "Ring fails completely if one link breaks; bus can still function if fault is isolated." },
-  { "front": "Which topology is easiest to install and why?", "back": "Bus, because it requires less cable and is simple to set up." },
-  { "front": "Give an example where ring topology might be preferred.", "back": "When predictable performance and orderly access to the medium are required." },
-  { "front": "How does a mesh topology provide reliability?", "back": "It offers multiple redundant paths between devices." },
-  { "front": "If you had to design a topology for a mission-critical system, which would you choose and why?", "back": "Mesh topology — provides redundancy and fault tolerance." },
-
-  { "front": "What does OSI stand for?", "back": "Open Systems Interconnection." },
-  { "front": "How many layers are in the OSI model?", "back": "Seven." },
-  { "front": "List the OSI layers from top to bottom.", "back": "Application, Presentation, Session, Transport, Network, Data Link, Physical." },
-  { "front": "Which OSI layer is responsible for routing?", "back": "Network layer." },
-  { "front": "Which OSI layer handles error detection and correction?", "back": "Data Link layer." },
-  { "front": "What is the role of the Transport layer?", "back": "Provides reliable data transfer, flow control, and error handling." },
-  { "front": "Differentiate between Physical and Data Link layers.", "back": "Physical transmits raw bits; Data Link organizes bits into frames and ensures error-free delivery." },
-  { "front": "Which OSI layer establishes, manages, and terminates sessions?", "back": "Session layer." },
-  { "front": "How would you explain the OSI model to a non-technical person?", "back": "A step-by-step system where each layer has a specific job to ensure communication works." },
-  { "front": "Evaluate: Is the OSI model practical for real-world networking?", "back": "Yes for understanding, but most real-world protocols use a hybrid like TCP/IP." },
-
-  { "front": "What does TCP/IP stand for?", "back": "Transmission Control Protocol / Internet Protocol." },
-  { "front": "Name the four layers of the TCP/IP model.", "back": "Application, Transport, Internet, Network Access." },
-  { "front": "Which TCP/IP layer corresponds to the OSI Network layer?", "back": "Internet layer." },
-  { "front": "What is the main function of TCP?", "back": "Provides reliable, ordered, error-checked delivery of data." },
-  { "front": "What is the main function of IP?", "back": "Provides logical addressing and routing." },
-  { "front": "How does UDP differ from TCP?", "back": "UDP is connectionless, faster, but less reliable than TCP." },
-  { "front": "Give an example where UDP is preferred.", "back": "Live streaming or gaming where speed is more important than reliability." },
-  { "front": "What is the loopback IP address?", "back": "127.0.0.1." },
-  { "front": "Why is TCP/IP considered more practical than OSI?", "back": "It is based on real protocols in use and is widely implemented." },
-  { "front": "Propose a simple analogy for TCP/IP communication.", "back": "Like sending letters through a postal system where addresses and delivery rules are standardized." },
-
-  { "front": "Define bandwidth.", "back": "The maximum rate at which data can be transmitted over a network path." },
-  { "front": "Define throughput.", "back": "The actual rate of successful data transfer." },
-  { "front": "What is latency?", "back": "The delay between sending and receiving data." },
-  { "front": "Explain jitter in terms of latency.", "back": "The variation in latency over time." },
-  { "front": "Why is high bandwidth not always equal to high throughput?", "back": "Throughput can be reduced by errors, congestion, and protocol overhead." },
-  { "front": "How can latency affect user experience?", "back": "High latency can cause noticeable delays, making interactions sluggish." },
-  { "front": "Compare propagation delay and transmission delay.", "back": "Propagation delay is signal travel time; transmission delay is time to push all bits onto the link." },
-  { "front": "What factor primarily affects propagation delay?", "back": "The medium's physical properties and distance." },
-  { "front": "How would you improve throughput in a congested network?", "back": "Increase bandwidth, optimize protocols, or reduce network load." },
-  { "front": "Evaluate: Is jitter more critical in video conferencing or email?", "back": "Video conferencing, because timing consistency affects quality." },
-
-  { "front": "What is multiplexing?", "back": "Combining multiple signals for transmission over a single medium." },
-  { "front": "Name two common multiplexing techniques.", "back": "Frequency Division Multiplexing (FDM) and Time Division Multiplexing (TDM)." },
-  { "front": "How does FDM work?", "back": "Assigns different frequency bands to different signals." },
-  { "front": "How does TDM work?", "back": "Assigns different time slots to different signals." },
-  { "front": "What is statistical TDM?", "back": "Allocates time slots dynamically based on demand." },
-  { "front": "Compare FDM and TDM in terms of efficiency.", "back": "TDM can be more efficient when users have bursty traffic." },
-  { "front": "Where is Wavelength Division Multiplexing used?", "back": "In fiber-optic communications." },
-  { "front": "Why use multiplexing?", "back": "To maximize the use of a communication channel's capacity." },
-  { "front": "Apply: Which multiplexing technique is best for continuous analog signals?", "back": "FDM." },
-  { "front": "Create: Design a simple TDM frame for 4 devices each sending 1 byte.", "back": "Frame would have 4 time slots, each 1 byte long, assigned in order to devices 1–4." }
+  {
+    "front": "What is myopia?",
+    "back": "The human eye's inability to focus on distant objects due to an elongated eyeball."
+  },
+  {
+    "front": "How does accommodation work in the eye?",
+    "back": "It adjusts the focal length of the eye lens to focus on objects at different distances."
+  },
+  {
+    "front": "What is myopia caused by?",
+    "back": "An elongated eyeball that causes distant objects to be focused before the retina."
+  },
+  {
+    "front": "How can myopia be corrected?",
+    "back": "With a concave lens."
+  },
+  {
+    "front": "What is hypermetropia?",
+    "back": "The human eye's inability to focus on nearby objects due to an eyeball that is too small or a cornea that is too flat."
+  },
+  {
+    "front": "How does hypermetropia differ from myopia?",
+    "back": "It affects near vision rather than far vision."
+  },
+  {
+    "front": "What can correct hypermetropia?",
+    "back": "A convex lens."
+  },
+  {
+    "front": "What is presbyopia?",
+    "back": "The loss of the eye's power of accommodation with age, making it difficult to focus on nearby objects."
+  },
+  {
+    "front": "What causes presbyopia?",
+    "back": "The natural aging process of the eye."
+  },
+  {
+    "front": "How can presbyopia be corrected?",
+    "back": "With reading glasses or bifocal lenses."
+  },
+  {
+    "front": "What is the primary effect of myopia on vision?",
+    "back": "Difficulty focusing on distant objects."
+  },
+  {
+    "front": "Which refractive defect affects near vision?",
+    "back": "Hypermetropia."
+  },
+  {
+    "front": "As a person ages, what happens to their accommodation?",
+    "back": "It decreases due to presbyopia."
+  },
+  {
+    "front": "What is the primary effect of hypermetropia on vision?",
+    "back": "Difficulty focusing on nearby objects."
+  },
+  {
+    "front": "Which refractive defect affects far vision?",
+    "back": "Myopia."
+  },
+  {
+    "front": "How do myopia and presbyopia affect vision differently?",
+    "back": "Myopia affects far vision, while presbyopia affects near vision."
+  },
+  {
+    "front": "What is the primary cause of myopia?",
+    "back": "An elongated eyeball."
+  },
+  {
+    "front": "What is the primary cause of hypermetropia?",
+    "back": "An eyeball that is too small or a cornea that is too flat."
+  },
+  {
+    "front": "How do reading glasses correct presbyopia?",
+    "back": "By providing magnification to compensate for decreased accommodation."
+  },
+  {
+    "front": "What is the primary effect of hypermetropia on daily life?",
+    "back": "Difficulty with everyday tasks such as reading and driving."
+  },
+  {
+    "front": "How does myopia affect daily life?",
+    "back": "Difficulty with activities that require distant vision, such as watching TV or driving."
+  },
+  {
+    "front": "What is the primary difference between myopia and hypermetropia?",
+    "back": "The direction of the refractive error (myopia affects far vision, while hypermetropia affects near vision)."
+  },
+  {
+    "front": "How can presbyopia be managed?",
+    "back": "With the use of reading glasses or bifocal lenses."
+  },
+  {
+    "front": "What is the long-term effect of untreated myopia?",
+    "back": "Potential development of secondary conditions such as cataracts or glaucoma."
+  },
+  {
+    "front": "How does hypermetropia affect daily life in children?",
+    "back": "Difficulty with reading and writing, potentially impacting academic performance."
+  },
+  {
+    "front": "What is the primary cause of presbyopia in individuals under 40 years old?",
+    "back": "Other factors such as eye strain or dryness rather than natural aging."
+  },
+  {
+    "front": "How can hypermetropia be managed in children?",
+    "back": "With the use of corrective lenses, such as glasses or contacts."
+  },
+  {
+    "front": "What is the primary effect of myopia on daily life?",
+    "back": "Difficulty with activities that require distant vision, such as watching TV or driving."
+  },
+  {
+    "front": "How does presbyopia affect daily life in older adults?",
+    "back": "Difficulty with everyday tasks such as reading and writing, potentially impacting independence."
+  }
 ]

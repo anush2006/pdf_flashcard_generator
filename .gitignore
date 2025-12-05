@@ -15,3 +15,8 @@ flashcards.json
 cleaned_flashcards.json
 .gitignore
 pdf_parsing_RAG.py
+.gitignore
+*.pkl
+*.faiss
+*.pdf
+cleaned_flashcards.json

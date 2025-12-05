@@ -1,6 +1,8 @@
 import os
 import json
-import requests
+import ollama
+from langchain.vectorstores import FAISS
+from langchain_huggingface import HuggingFaceEmbeddings
 
 OLLAMA_API_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "llama3"
@@ -10,6 +12,39 @@ IMAGE_DESC_FILE = "image_dissection.txt"
 TEXT_FILE = "page_text.txt"
 OUTPUT_FILE = "flashcards.json"
 BATCH_SIZE = 3
+
+def load_index():
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+    vectorstore = FAISS.load_local("faiss_vectorstore", embeddings, allow_dangerous_deserialization=True)
+    return vectorstore
+
+def retrieve(query_text, k=3):
+    vectorstore = load_index()
+    docs = vectorstore.similarity_search(query_text, k=k)
+
+    chunks = []
+    for d in docs:
+        if hasattr(d, "page_content"):
+            chunks.append(str(d.page_content))
+        else:
+            chunks.append(str(d))
+
+    return chunks
+
+
+def summarize(text):
+    prompt = f"""
+    Summarize the following text into 3–5 clear bullet points focusing ONLY on the
+    concepts and ideas that are important for question/flashcard generation.
+
+    Text:
+    {text}
+
+    Summary:
+    """
+    result = ollama.generate(model="llama3", prompt=prompt)
+    return result["response"]
+
 def main():
     all_flashcards = []
 
@@ -38,35 +73,45 @@ def main():
 
                 combined_text += f"Page: {folder}\n\nText:\n{pagetext}\n\nDiagram:\n{imagedescription}\n\n---\n\n"
 
+        retrieved_chunks = retrieve(combined_text, k=3)
+
+        if retrieved_chunks:
+            combined_retrieved = "\n\n".join(retrieved_chunks)
+            retrieved_summary = summarize(combined_retrieved)
+        else:
+            retrieved_summary = "No relevant retrieved knowledge found."
+
         if combined_text:
             prompt = f"""
 
-You are an expert educator. Generate flashcards based on the input academic content.
+You are an expert educator. Use the provided academic content and retrieved knowledge
+to generate high-quality flashcards.
 
-Classify each question into one of Bloom’s Taxonomy levels: Remember, Understand, Apply, Analyze, Evaluate, Create.
+Retrieved Knowledge (Summarized):
+{retrieved_summary}
 
-Generate 10 questions and answers in the format:
-{{ "front": "question", "back": "answer"}}
-
-Ensure:
+Guidelines:
+- Classify each question into one of Bloom’s Taxonomy levels: Remember, Understand, Apply, Analyze, Evaluate, Create.
+- Generate 25 questions and answers in this JSON format:
+  {{ "front": "question", "back": "answer" }}
+- Ensure factual accuracy.
 - No vague answers.
-- Include higher-order thinking (Analyze/Create) where content allows.
+- Include higher-order thinking where possible.
 - Avoid repetition.
-- Dont refer to images inside the text.
-- Each flashcard is factually grounded in the input.
-{combined_text}
+- Do NOT refer to any images directly.
+- Base questions strictly on the content above.
 
+**Output (JSON only):**
+"""
 
-**Output (JSON only):** """
+            print(f"Querying llama3 for page set {batch_start} to {batch_start + BATCH_SIZE}...")
+            res = ollama.generate(
+                model=MODEL_NAME,
+                prompt=prompt,
+                stream=False
+            )
 
-            payload = {
-                "model": MODEL_NAME,
-                "prompt": prompt,
-                "stream": False,
-            }
-            print(f"Querying page set {batch_start} to {batch_start + BATCH_SIZE}")
-            res = requests.post(OLLAMA_API_URL, json=payload)
-            output = res.json().get("response", "").strip()
+            output = res.get("response", "").strip()
 
             if output.startswith("```json"):
                 output = output.removeprefix("```json").strip()

@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from streamlit import session_state as ss
+from streamlit import session_state
 import json
 import sys
 import shutil
@@ -8,7 +8,7 @@ import shutil
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 from run import main
 
-st.set_page_config(page_title="Flashcard Viewer", layout="wide")
+st.set_page_config(page_title="Flashcard Generator and Viewer", layout="wide")
 st.title("Flashcard Viewer")
 
 SAVE_DIR = "src/uploads"
@@ -31,13 +31,14 @@ if uploaded_file is not None:
 
 start = int(st.number_input("Enter start page", min_value=1, value=1))
 end = int(st.number_input("Enter end page", min_value=1, value=1))
-
+batch_size = int(st.number_input("Enter batch size", min_value=1))
+st.session_state.batch_size = batch_size
 if st.button("Generate"):
     if os.path.exists(SAVE_DIR) and has_pdf(SAVE_DIR):
         uploaded_pdf = st.session_state.get("uploaded_pdf", None)
         if uploaded_pdf:
             st.success("Executing module... This may take a while...")
-            main(uploaded_pdf, start, end)
+            main(uploaded_pdf, start, end,st.session_state.get("batch_size"))
             st.rerun()
         else:
             st.error("No uploaded PDF filename found in session state. If you want a new set of questions, add the PDF again.")
@@ -47,7 +48,18 @@ if st.button("Generate"):
 if st.button("End"):
     os._exit(0)
 
-if os.path.exists("cleaned_flashcards.json"):
+if st.button("Clear stored Data"):
+    try:
+        shutil.rmtree("src/uploads")
+        shutil.rmtree("./train_ocr")
+        os.remove("cleaned_flashcards.json")
+        st.success("Data cleared")
+        st.rerun()
+    except:
+        st.warning("Data does not exist")
+        st.rerun()
+
+if os.path.exists("./train_ocr") and os.path.isfile("cleaned_flashcards.json"):
     with open("cleaned_flashcards.json", "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -93,11 +105,4 @@ if os.path.exists("cleaned_flashcards.json"):
                 st.session_state.show_answer = False
                 st.rerun()
 
-if st.button("Clear stored Data"):
-    try:
-        shutil.rmtree("src/uploads")
-        os.remove("cleaned_flashcards.json")
-        st.success("Data cleared")
-        st.rerun()
-    except:
-        st.warning("Data does not exist")
+
